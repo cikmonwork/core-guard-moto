@@ -217,6 +217,13 @@ void saveFirstVariablesWiFi()
 void saveFrequencySending(long val){
    beginWrite();
    preferences.putLong("freqSend", val);
+
+   end();
+}
+
+void saveIsFrequencySending(long val){
+   beginWrite();
+   preferences.putInt("isfreqSend", val);
    end();
 }
 

@@ -250,6 +250,7 @@ void setComand1Chenal(String val)
       deviceSettings.wifiFrequency = parseVal[0].toInt();
       deviceSettings.isWifiFrequencySending = 1;
       saveFrequencySending(deviceSettings.wifiFrequency);
+      saveIsFrequencySending(1);
       isSettingsChangedBle = true;
     }
     break;

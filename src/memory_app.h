@@ -33,6 +33,8 @@ void getVariablesDevice();
 void getVariablesWifi();
 void saveDeviceNameBle(String deviceNameBle);
 void saveFrequencySending(long val);
+void saveIsFrequencySending(long val);
+
 
 void saveRaley(byte ind, byte val);
 
